@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="YOUR_BANNER_OR_AVATAR.png" height="175" />
+  <img src="https://gapgpt.cloud/server_files/fc71edbe-b992-4631-af47-fa80fd9b8d60.png" height="175" />
 </p>
 
 <div align="center">
