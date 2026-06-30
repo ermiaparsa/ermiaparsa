@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://gapgpt.cloud/server_files/fc71edbe-b992-4631-af47-fa80fd9b8d60.png" height="175" />
+  <img src="Screenshot from 2026-06-30 20-22-03.png" height="175" />
 </p>
 
 <div align="center">
