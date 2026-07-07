@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="Screenshot from 2026-06-30 20-22-03.png" height="175" />
+  <img src="8f59ebda-b05c-4159-9513-93f79f079220.png" height="175" />
 </p>
 
 <div align="center">
