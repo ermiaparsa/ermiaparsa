@@ -13,8 +13,6 @@
 I'm a Computer Engineering student who enjoys building practical systems, learning how software works under the hood, and turning theory into real-world engineering.
 
 ---
-<br>
-<hr>
 
 <div align="center">
 
