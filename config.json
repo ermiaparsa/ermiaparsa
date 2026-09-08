@@ -1,0 +1,11 @@
+{
+  "username": "ermiaparsa",
+  "name": "Ermia Parsamanesh",
+  "role": "Software Engineering Student & Backend Developer",
+  "location": "Tehran, Iran",
+  "status": "Building products that turn ambitious ideas into useful systems.",
+  "website": "",
+  "focus": "Backend Dev . AI . CS Grad Admission",
+  "skills": ["Python", "Django", "C++", "Git", "Latex", "Java"],
+  "featured_repos": ["Corporate-Planning-System", "Gradica", "DailyOS"]
+}
