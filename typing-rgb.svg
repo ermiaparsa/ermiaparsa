@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 120" width="850" height="120">
+  <defs>
+    <linearGradient id="rgbGradient" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#FF0000">
+        <animate attributeName="stop-color" values="#FF0000;#00FF00;#0000FF;#FF0000" dur="4s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#00FF00">
+        <animate attributeName="stop-color" values="#00FF00;#0000FF;#FF0000;#00FF00" dur="4s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#0000FF">
+        <animate attributeName="stop-color" values="#0000FF;#FF0000;#00FF00;#0000FF" dur="4s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <style>
+      .text {
+        font-family: 'Fira Code', monospace;
+        font-size: 20px;
+        font-weight: 600;
+        fill: url(#rgbGradient);
+      }
+    </style>
+  </defs>
+
+  <text x="0" y="30" class="text">I'm a Computer Engineering student</text>
+  <text x="0" y="60" class="text">who enjoys building practical systems</text>
+  <text x="0" y="90" class="text">and turning theory into real-world engineering.</text>
+</svg>
