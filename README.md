@@ -11,8 +11,9 @@
 </div>
 
 <div align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=20&duration=2800&pause=0&color=38BDF8&multiline=true&repeat=true&width=800&height=120&lines=I'm+a+Computer+Engineering+student;who+enjoys+building+practical+systems+learning+how+software+works;and+turning+theory+into+real-world+engineering." alt="Typing SVG" />
+  <img src="https://raw.githubusercontent.com/ermiaparsa/ermiaparsa/main/typing-rgb.svg" alt="Ermia Parsamanesh Bio" />
 </div>
+
 
 
 
