@@ -1,28 +1,54 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 850 120" width="850" height="120">
   <defs>
-    <linearGradient id="rgbGradient" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" stop-color="#FF0000">
-        <animate attributeName="stop-color" values="#FF0000;#00FF00;#0000FF;#FF0000" dur="4s" repeatCount="indefinite" />
+    <linearGradient id="rgbFlow" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8">
+        <animate attributeName="stop-color" values="#38bdf8;#818cf8;#c084fc;#f43f5e;#fb923c;#34d399;#38bdf8" dur="8s" repeatCount="indefinite" />
       </stop>
-      <stop offset="50%" stop-color="#00FF00">
-        <animate attributeName="stop-color" values="#00FF00;#0000FF;#FF0000;#00FF00" dur="4s" repeatCount="indefinite" />
+      <stop offset="50%" stop-color="#818cf8">
+        <animate attributeName="stop-color" values="#818cf8;#c084fc;#f43f5e;#fb923c;#34d399;#38bdf8;#818cf8" dur="8s" repeatCount="indefinite" />
       </stop>
-      <stop offset="100%" stop-color="#0000FF">
-        <animate attributeName="stop-color" values="#0000FF;#FF0000;#00FF00;#0000FF" dur="4s" repeatCount="indefinite" />
+      <stop offset="100%" stop-color="#c084fc">
+        <animate attributeName="stop-color" values="#c084fc;#f43f5e;#fb923c;#34d399;#38bdf8;#818cf8;#c084fc" dur="8s" repeatCount="indefinite" />
       </stop>
     </linearGradient>
 
+    <clipPath id="clipLine1">
+      <rect x="0" y="0" width="0" height="40">
+        <animate attributeName="width" values="0;450;450;0" keyTimes="0;0.28;0.92;1" dur="9s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+
+    <clipPath id="clipLine2">
+      <rect x="0" y="38" width="0" height="40">
+        <animate attributeName="width" values="0;0;500;500;0" keyTimes="0;0.28;0.60;0.92;1" dur="9s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+
+    <clipPath id="clipLine3">
+      <rect x="0" y="76" width="0" height="40">
+        <animate attributeName="width" values="0;0;580;580;0" keyTimes="0;0.60;0.88;0.92;1" dur="9s" repeatCount="indefinite" />
+      </rect>
+    </clipPath>
+
     <style>
-      .text {
-        font-family: 'Fira Code', monospace;
-        font-size: 20px;
+      .code-font {
+        font-family: 'Fira Code', 'Courier New', monospace;
+        font-size: 19px;
         font-weight: 600;
-        fill: url(#rgbGradient);
+        fill: url(#rgbFlow);
       }
     </style>
   </defs>
 
-  <text x="0" y="30" class="text">I'm a Computer Engineering student</text>
-  <text x="0" y="60" class="text">who enjoys building practical systems</text>
-  <text x="0" y="90" class="text">and turning theory into real-world engineering.</text>
+  <g clip-path="url(#clipLine1)">
+    <text x="10" y="30" class="code-font">I'm a Computer Engineering student who enjoys</text>
+  </g>
+
+  <g clip-path="url(#clipLine2)">
+    <text x="10" y="68" class="code-font">building practical systems, learning how software works,</text>
+  </g>
+
+  <g clip-path="url(#clipLine3)">
+    <text x="10" y="106" class="code-font">and turning theory into real-world engineering.</text>
+  </g>
 </svg>
