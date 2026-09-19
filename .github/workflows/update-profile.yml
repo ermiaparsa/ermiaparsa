@@ -19,7 +19,7 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
-          cache: 'pip' # در صورت وجود requirements.txt کش پکیج‌ها فعال میشه
+        #cache: 'pip'  در صورت وجود requirements.txt کش پکیج‌ها فعال میشه
 
       - name: Install Dependencies
         run: |
