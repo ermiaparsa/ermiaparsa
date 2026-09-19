@@ -20,18 +20,19 @@ ROOT = Path(__file__).resolve().parent.parent
 ASSETS = ROOT / "assets"
 CONFIG = ROOT / "config.json"
 
-BG = "#0a0f16"       # سرمه‌ای خیلی تیره (پس‌زمینه اصلی)
-SHELL = "#0e1520"    # قاب بیرونی
-CORE = "#0b111a"     # بورد داخلی
-HAIR = "#1e3242"     # خط دور (به‌جای قرمز‌های قبلی)
-CYAN = "#4fc‌جای قرمز‌های قبلی)
-CYAN = "#4fc)
-BLUE = "#2196f3"     # آبی میانی (جای ORANGE)
-STEEL = "#9fb8cc"    # نقره‌ای سرد (جای GOLD)
-CREAM = "#e8f1f8"    # متن‌های روشن (سفید سرد)
-MUTED = "#8fa8bc"    # متن‌های کم‌رنگ
-LED = "#00e676"      # سبز چراغ سرور (لهجه‌ی خاص)
-
+BG     = "#0a0f16"
+SHELL  = "#0e1520"
+CORE   = "#0b111a"
+HAIR   = "#1e3242"
+RED    = "#e53935"
+ORANGE = "#f57c00"
+GOLD   = "#fdd835"
+CYAN   = "#4fc3f7"
+BLUE   = "#2196f3"
+STEEL  = "#9fb8cc"
+CREAM  = "#e8f1f8"
+MUTED  = "#8fa8bc"
+LED    = "#00e676"
 
 DEMO = {
     "public_repos": 86,
